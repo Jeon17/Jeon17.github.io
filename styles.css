@@ -42,7 +42,7 @@ main {
   /* Typography */
   font-size: 24px;
   font-weight: bold;
-  color: #fff;
+  color: rgb(240, 156, 1);
 
   /* Visual */
   background: #4aaaa5;
@@ -50,18 +50,18 @@ main {
 
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+  color: #02388a;
 }
 
 .navbar {
-  background: white;
+  background: rgb(255, 255, 255);
   border: none;
 }
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #4aaaa5;
+    background-color: #03083d;
   }
 }
 /* END NAV */
